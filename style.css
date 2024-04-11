@@ -1,0 +1,175 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* Starting work here 
+@media only screen and (min-width: 768px) {} */
+
+/* Font Classes */
+
+.lato-thin {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .lato-black {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .lato-thin-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .lato-light-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .lato-regular-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .lato-bold-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .lato-black-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+  /*--------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    font-family: Lato, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.white-container {
+    background-color: white;
+    width: 85vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    border-radius: 30px;
+    width: 50vw;
+    height: 40vh;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* Section Results */
+
+.result {
+/*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=6743ff&c2=312ce9&gt=l&gd=dtt
+*/
+background: #6743FF;
+background: linear-gradient(180deg, #6743FF, #312CE9);
+border-radius: 30px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+color: white;
+}
+
+.result__circle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    /*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=6743ff&c2=312ce9&gt=l&gd=dbb
+*/
+background: #6743FF;
+background: linear-gradient(0deg, #6743FF, #312CE9);
+
+}
+
+.result>h2 {
+    opacity: 0.5;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.result>h3 {
+    font-size: 4rem;
+}
+
+.result__description {
+    width: 70%;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    opacity: 0.5;
+}
+
+.result__percentage {
+    font-size: 6rem;
+}
+
+.result__of-hundred {
+    font-size: 1.3rem;
+    opacity: 0.3;
+}
+
+/* Section Summary */
+
+.summary {
+    display:flex;
+    flex-direction: column;
+}
+
+.summary>h2 {
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: #303b59;
+}
